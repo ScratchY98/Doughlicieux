@@ -10,9 +10,7 @@
     --font-body: 'Poppins', sans-serif;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -237,7 +235,6 @@ header nav a:hover {
     transform: rotate(-10deg) scale(1.1);
 }
 
-
 .donut-card h3 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
@@ -334,7 +331,6 @@ footer {
     transform: translateY(0);
 }
 
-
 /* Responsive Design */
 @media (min-width: 576px) {
     .menu-grid {
@@ -346,7 +342,6 @@ footer {
     }
 }
 
-
 @media (min-width: 768px) {
     header nav a.btn {
         display: inline-block;
@@ -355,11 +350,13 @@ footer {
     .hero-content h2 {
         font-size: 4rem;
     }
+
     .steps-container {
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
+
     .step {
         max-width: 30%;
     }
@@ -370,4 +367,3 @@ footer {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-
